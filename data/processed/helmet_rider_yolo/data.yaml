@@ -1,0 +1,10 @@
+# YOLOv8 Dataset Configuration for SafeRide AI
+path: /Users/janesh/Documents/SafeRide AI/data/processed/helmet_rider_yolo
+train: images/train
+val: images/val
+
+names:
+  0: motorcycle
+  1: rider
+  2: helmet
+  3: no_helmet

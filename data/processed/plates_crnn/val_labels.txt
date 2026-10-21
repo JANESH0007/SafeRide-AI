@@ -1,0 +1,2 @@
+sample_plate.jpg MH12DE1432
+sample_plate2.jpg DL01AB1234

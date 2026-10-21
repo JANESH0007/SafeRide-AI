@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (auto-downloaded, large files)
+*.pt
+models/*.pt
+models/*.onnx
+*.onnx
+
+# Output (generated at runtime)
+output/violations.csv
+output/crops/*
+output/*.mp4
+
+# EasyOCR model cache
+~/.EasyOCR/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env

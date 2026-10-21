@@ -1,0 +1,26 @@
+# ── SafeRide AI ── Dependencies ──
+# Core deep learning
+ultralytics>=8.0.200        # YOLOv8 object detection
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Tracking
+deep-sort-realtime>=1.3.2   # DeepSORT multi-object tracker
+
+# OCR
+easyocr>=1.7.1              # Pretrained OCR for number plates
+
+# Computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Dashboard
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# Data
+pandas>=2.0.0
+
+# Utilities
+tqdm>=4.66.0
